@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // Placeholder image (replace with actual images if available)
-import void from "../../Assets/Projects/voidbot.png";
+import void1 from "../../Assets/Projects/voidbot.png";
 import kryode from "../../Assets/Projects/KN1.png";
 import stride from "../../Assets/Projects/stride.png";
 
@@ -32,7 +32,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={void}
+              imgPath={void1}
               isBlog={false}
               title="Void BOT"
               description="A multi-purpose Discord bot with a focus on music, moderation, and utility. Built using Discord.js and Lavalink. Supports YouTube/Spotify, advanced queue control, filters, and 24/7 mode."
