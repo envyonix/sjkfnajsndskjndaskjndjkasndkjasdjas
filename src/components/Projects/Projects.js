@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // Placeholder image (replace with actual images if available)
-import vod from "../../Assets/Projects/voidbot.png";
+import void from "../../Assets/Projects/voidbot.png";
 import kryode from "../../Assets/Projects/KN1.png";
 import stride from "../../Assets/Projects/stride.png";
 
