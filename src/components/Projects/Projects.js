@@ -26,7 +26,6 @@ function Projects() {
               isBlog={false}
               title="Kryode Network"
               description="A Lifesteal-based Minecraft server focused on community, PvP, and progression. Custom plugins, land claiming, economy system, and powerful events make it one of the most engaging survival experiences."
-              ghLink="" // Optional: Add GitHub repo if public
             />
           </Col>
 
@@ -36,7 +35,6 @@ function Projects() {
               isBlog={false}
               title="Void BOT"
               description="A multi-purpose Discord bot with a focus on music, moderation, and utility. Built using Discord.js and Lavalink. Supports YouTube/Spotify, advanced queue control, filters, and 24/7 mode."
-              ghLink="" // Optional: Add GitHub repo if public
             />
           </Col>
 
@@ -46,7 +44,6 @@ function Projects() {
               isBlog={false}
               title="Stride SMP"
               description="A Minecraft SMP server with a tight-knit community, seasonal resets, events, and lore-based storytelling. Managed server infrastructure and plugin development for performance and balance."
-              ghLink="" // Optional: Add GitHub repo if public
             />
           </Col>
         </Row>
