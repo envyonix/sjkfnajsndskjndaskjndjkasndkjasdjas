@@ -32,8 +32,8 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={placeholder}
-              isBlog={void}
+              imgPath={void}
+              isBlog={false}
               title="Void BOT"
               description="A multi-purpose Discord bot with a focus on music, moderation, and utility. Built using Discord.js and Lavalink. Supports YouTube/Spotify, advanced queue control, filters, and 24/7 mode."
               ghLink="" // Optional: Add GitHub repo if public
