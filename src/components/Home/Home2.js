@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { FaDiscord } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -19,33 +15,28 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and have been learning ever since.
               <br />
-              <br />I am work in things such as
+              <br />
+              I work on things like{" "}
               <i>
-                <b className="purple"> Minecraft, Python and JS. </b>
+                <b className="purple">Minecraft servers, Python, and JavaScript.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My areas of interest include building{" "}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple">web technologies and products</b> and exploring{" "}
+                <b className="purple">blockchain</b> concepts.
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing 
-              with <b className="purple">Minecraft Servers</b> and
+              I also love developing{" "}
+              <b className="purple">Minecraft servers</b> and{" "}
               <i>
-                <b className="purple">
-                  {" "}
-                  Discord Bots or Websites
-                </b>
-              </i>
+                <b className="purple">Discord bots or websites</b>
+              </i>{" "}
+              in my free time.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -54,6 +45,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -66,7 +58,7 @@ function Home2() {
                   href="https://github.com/envyonix"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -77,9 +69,9 @@ function Home2() {
                   href="https://discord.gg/9em9BqgnKc"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <FaDiscord />
                 </a>
               </li>
             </ul>
@@ -89,4 +81,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
